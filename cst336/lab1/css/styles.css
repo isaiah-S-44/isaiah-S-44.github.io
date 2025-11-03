@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a { /* links within "nav" container */
+    padding : 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white;        /* by default, links are blue */
+}
+
+nav a:hover { /* pseudo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+}
+
+nav a.active {
+  color: #f6ff00c8; /* change the color */
+  font-weight: bold; /* make it stand out */
+  text-decoration: underline; /* optional */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 0.8em;
+    color: darkorchid;
+    img {
+        width: 100px;
+    }
+}
+
+table{
+    margin: 0px auto;
+}
+td {
+    padding: 10px;  
+    font-size: 1.3em;
+}
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: darkcyan;
+}
+.table-row {
+    background-color: darkcyan;
+}
+
+ul {
+    width: 500px;
+    margin : 0px auto;
+    text-align: left;
+}
+
+.hobby {
+    font-weight: bold;
+    color: lightgreen;
+}
