@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     color: white;
 }
 
@@ -48,7 +48,7 @@ td {
     font-size: 1.3em;
 }
 td strong {
-    color: orange;
+    color: rgb(255, 178, 35);
 }
 
 #table-header {
@@ -67,4 +67,13 @@ ul {
 .hobby {
     font-weight: bold;
     color: lightgreen;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
