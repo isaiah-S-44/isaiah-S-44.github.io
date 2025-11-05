@@ -1,0 +1,88 @@
+/* color codes
+
+#473472 - background color (dark purple)
+#53629E - light purple
+#87BAC3 - light blue
+#D6F4ED - very light blue
+
+*/
+
+body {
+    background-color: #473472;
+    color: white;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+}
+
+nav a {
+    /* links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    /* removes underline */
+    color: #87BAC3;
+    /* by default, links are blue */
+}
+
+nav a:hover {
+    /* pseudo class*/
+    border-bottom: 2px #D6F4ED solid;
+    /* underline on hover */
+    font-size: 2em;
+    transition: .9s;
+    /* transition effect */
+}
+
+nav a.active {
+    color: #D6F4ED;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    color: #87BAC3;
+    /* light blue from palette */
+    text-decoration: underline;
+
+}
+
+a:hover {
+    color: #D6F4ED;
+    /* very light blue when hovering */
+}
+
+main {
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: left;
+}
+
+footer {
+    font-size: 0.8em;
+    color: #87BAC3;
+
+    img {
+        width: 100px;
+    }
+}
+
+ul {
+    width: 500px;
+
+    text-align: left;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
