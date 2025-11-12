@@ -182,10 +182,13 @@ if (q5Response === "pacific"){
     if (score === 100) {
         totalScoreEle.className = "text-success";
         totalScoreEle.innerHTML = `<span style="color: purple;">Perfect Score!!!</span><br>`;
-    } else if (score >= 80) {
+    } else if (score > 80) {
         totalScoreEle.className = "text-success";
         totalScoreEle.innerHTML = `<span style="color: blue;">Great Job!!!</span><br>`;
-    } else {
+    }else if (score === 80) {
+        totalScoreEle.className = "text-success";
+    }
+     else {
         totalScoreEle.className = "text-danger";
         totalScoreEle.innerHTML = `Oops! Try Again!<br>`;
     }
