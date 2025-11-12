@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title> US Geography Quiz  </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- underscore.js library gives us utility functions, such as _.shuffle() -->
     <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.2/underscore-umd-min.js"> </script>
@@ -20,6 +20,7 @@
     <br><br> 
     <div id="q1Feedback"></div>
     <br><br>
+
     <!-- Question 2 -->
     <h3><span id="markImg2"></span>What is the longest river? </h3>
 
@@ -33,8 +34,9 @@
     <br><br>
     <div id="q2Feedback"></div>
     <br>
+
     <!-- Question 3 -->
-    <h3><span id="markImg3"></span>What presidents are carved into mount Rushmore?</h3>
+    <h3><span id="markImg3"></span>3.) What presidents are carved into mount Rushmore?</h3>
     <input type="checkbox" id="Jackson">  <label for="Jackson"> A.Jackson </label>
     <input type="checkbox" id="Franklin"> <label for="Franklin"> B.Franklin </label>
     <input type="checkbox" id="Jefferson"> <label for="Jefferson"> T. Jefferson </label>
@@ -42,11 +44,74 @@
     <br><br>
     <div id="q3Feedback"></div>
     <br><br>
+
     <!-- Question 4 -->
     <h3><span id="markImg4"></span>What is the smallest US State?</h3>
     <div id="q4Choices"></div>
     <br><br>
     <div id="q4Feedback"></div>
+    <br><br>
+
+    <!-- Question 5 -->
+    <h3><span id="markImg5"></span>Which ocean borders California?</h3>
+    <select id="q5">
+        <option value="">-- Select One --</option>
+        <option value="atlantic">Atlantic Ocean</option>
+        <option value="pacific">Pacific Ocean</option>
+        <option value="indian">Indian Ocean</option>
+        <option value="arctic">Arctic Ocean</option>
+    </select>
+    <br><br>
+    <div id="q5Feedback"></div>
+    <br><br>
+
+    <!-- Question 6 -->
+    <h3><span id="markImg6"></span>What is the largest U.S. state by area?</h3>
+    <div id="q6Choices">
+    </div>
+    <br><br>
+    <div id="q6Feedback"></div>
+    <br><br>
+
+    <!-- Question 7 -->
+    <h3><span id="markImg7"></span>7.) Which of the following states share a border with Canada?</h3>
+    <input type="checkbox" id="Maine2"> <label for="Maine2">Maine</label>
+    <input type="checkbox" id="Ohio"> <label for="Ohio">Ohio</label>
+    <input type="checkbox" id="Montana2"> <label for="Montana2">Montana</label>
+    <input type="checkbox" id="Utah"> <label for="Utah">Utah</label>
+    <br><br>
+    <div id="q7Feedback"></div>
+    <br><br>
+
+    <!-- Question 8 -->
+    <h3><span id="markImg8"></span>What is the capital city of Texas?</h3>
+    <input type="text" id="q8">
+    <br><br>
+    <div id="q8Feedback"></div>
+    <br><br>
+
+    <!-- Question 9 -->
+    <h3><span id="markImg9"></span>Which U.S. region is known for producing the most corn?</h3>
+    <select id="q9">
+        <option value="">-- Select One --</option>
+        <option value="southwest">Southwest</option>
+        <option value="northeast">Northeast</option>
+        <option value="midwest">Midwest</option>
+        <option value="northwest">Northwest</option>
+    </select>
+    <br><br>
+    <div id="q9Feedback"></div>
+    <br><br>
+
+    <!-- Question 10 -->
+    <h3><span id="markImg10"></span>10.) Which of these are U.S. territories?</h3>
+    <input type="checkbox" id="PuertoRico"> <label for="PuertoRico">Puerto Rico</label>
+    <input type="checkbox" id="Guam"> <label for="Guam">Guam</label>
+    <input type="checkbox" id="Hawaii"> <label for="Hawaii">Hawaii</label>
+    <input type="checkbox" id="Samoa"> <label for="Samoa">American Samoa</label>
+    <br><br>
+    <div id="q10Feedback"></div>
+    <br><br>
 
     <!-- Validation -->
     <h3 id="validationFdbck" class="bg-danger text-white"></h3>
